@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.faq{
+    display: inline-block;
+    padding-left:60px ;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+    height: 100% !important;
+    width: 100% !important;
+}
+.faq h1{
+font-size: 30px;
+padding-bottom: 10px;
+}
+.accordion{
+    background-color: #ffff !important;
+    margin-top: 10px !important;
+    height:fit-content;
+    border-radius: 15px !important;
+    width: 90% !important;
+    box-shadow: none !important;
+    
+}
+.accordion h3{
+    position: relative;
+    top: 8px;
+    color: #465166;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.accordion p{
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+    padding-right: 24px;
+    color: #7e8594;
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+}
+.css-nt424e-MuiPaper-root-MuiAccordion-root::before{
+    border-top: none;
+    opacity: 0 !important;
+}
+.vaf{
+    font-weight: 700;
+    font-size: 14px;
+    
+    margin-top: 24px;
+}
+.vaf a{
+    color: #ef6e0b;
+}
